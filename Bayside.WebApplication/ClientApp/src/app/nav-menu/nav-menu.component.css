@@ -1,18 +1,59 @@
-a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+i{
+    font-size: 20px;
+    padding: 10px;
 }
 
-html {
-  font-size: 14px;
+.container{
+    text-align: center;
 }
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
+
+.bayside-logo{
+    height: 140px;
+    width: 150px;
+}
+
+.nav-item{
+    display: inline-block;
+    padding: 10px;
+}
+
+.nav-right{
+    position:absolute;
+    top: 12px;
+    right: 30px;
+}
+
+.mobile{
+    display:none;
+}
+
+@media only screen and (max-width: 600px) {
+  .bayside-logo{
+      height: 45px;
+      width: 45px;
   }
-}
 
-.box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+  .nav-items{
+      display:none;
+  }
+
+  .nav-right {
+    float: right;
+    top:inherit;
+    right:auto;
+    position:relative;
+  }
+
+  .nav-left {
+      display:block;
+    float: left;
+  }
+
+  .desktop{
+      display: none;
+  }
+
+  .mobile{
+      display: block;
+  }
 }
