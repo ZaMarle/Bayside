@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bayside.WebApplication", "Bayside.WebApplication\Bayside.WebApplication.csproj", "{CFDF96F8-98DE-49F1-B84C-13F922B192B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFDF96F8-98DE-49F1-B84C-13F922B192B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFDF96F8-98DE-49F1-B84C-13F922B192B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFDF96F8-98DE-49F1-B84C-13F922B192B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFDF96F8-98DE-49F1-B84C-13F922B192B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C15E436E-BCAB-4A96-88A4-CED427E03F42}
+	EndGlobalSection
+EndGlobal
